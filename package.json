@@ -3,9 +3,4 @@
     "surge": "^0.21.3"
   }
 }
-{
-    "homepage": "https://github.com/Talibsarwar/BootCampSessionA",
-    "scripts": {
-        "deploy": "BootCampSessionA -d web-build"
-    }
-}
+
