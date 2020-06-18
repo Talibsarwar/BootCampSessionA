@@ -4,9 +4,8 @@
   }
 }
 {
-    "homepage": "http://bootcampsessionaa2020.surge.sh/",
+    "homepage": "https://github.com/Talibsarwar/BootCampSessionA",
     "scripts": {
-        "deploy": "bootcampsessionaa2020.surge.sh",
-        "predeploy": "bootcampsessionaa2020.surge.sh"
+        "deploy": "BootCampSessionA -d web-build"
     }
 }
