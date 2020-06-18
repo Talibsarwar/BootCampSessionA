@@ -28,6 +28,6 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: Installing surge
-      run:  npm install --global surge
-    - name: deploying using surge
+      run:  yarn add surge
+    - name: deploying using yarn surge
       run:  yarn surge ./BootCampSessionAA2020.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
