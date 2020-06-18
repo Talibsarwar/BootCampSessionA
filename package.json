@@ -3,3 +3,10 @@
     "surge": "^0.21.3"
   }
 }
+{
+    "homepage": "http://bootcampsessionaa2020.surge.sh/",
+    "scripts": {
+        "deploy": "bootcampsessionaa2020.surge.sh",
+        "predeploy": "bootcampsessionaa2020.surge.sh"
+    }
+}
