@@ -30,4 +30,4 @@ jobs:
     - name: Installing surge
       run:  yarn add surge
     - name: deploying using yarn surge
-      run:  yarn surge ./BootCampSessionAA2020.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
+      run:  yarn surge ./BootCampSessionAA2020.surge.sh --token "0e8b3f3a865b713af8f9b781115bee20"
